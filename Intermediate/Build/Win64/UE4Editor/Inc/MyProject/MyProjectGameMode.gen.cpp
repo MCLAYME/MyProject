@@ -61,7 +61,7 @@ void EmptyLinkFunctionForGeneratedCodeMyProjectGameMode() {}
 		0,
 		0,
 		0,
-		0x008802ACu,
+		0x009002ACu,
 		METADATA_PARAMS(Z_Construct_UClass_AMyProjectGameMode_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_AMyProjectGameMode_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_AMyProjectGameMode()
@@ -73,7 +73,7 @@ void EmptyLinkFunctionForGeneratedCodeMyProjectGameMode() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMyProjectGameMode, 2535161823);
+	IMPLEMENT_CLASS(AMyProjectGameMode, 628764795);
 	template<> MYPROJECT_API UClass* StaticClass<AMyProjectGameMode>()
 	{
 		return AMyProjectGameMode::StaticClass();

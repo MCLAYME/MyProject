@@ -1,11 +1,14 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
-
 #include "MyProjectGameMode.h"
-#include "MyProjectPawn.h"
-#include "MyProjectHud.h"
+#include "MyProject.h"
 
 AMyProjectGameMode::AMyProjectGameMode()
 {
-	DefaultPawnClass = AMyProjectPawn::StaticClass();
-	HUDClass = AMyProjectHud::StaticClass();
+	// Constructor code here
+}
+
+void AMyProjectGameMode::BeginPlay()
+{
+	Super::BeginPlay();
+
+	// Código de inicialización aquí
 }

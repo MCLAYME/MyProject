@@ -1,19 +1,19 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
-
 #pragma once
 
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
 #include "MyProjectGameMode.generated.h"
 
-UCLASS(MinimalAPI)
-class AMyProjectGameMode : public AGameModeBase
+UCLASS()
+class MYPROJECT_API AMyProjectGameMode : public AGameModeBase
 {
 	GENERATED_BODY()
 
 public:
+	// Constructor
 	AMyProjectGameMode();
+
+protected:
+	// Método BeginPlay
+	virtual void BeginPlay() override;
 };
-
-
-

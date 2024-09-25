@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\MyProject.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{4F67490E-020F-465B-8223-7199F18D9008}</UniqueIdentifier>
+      <UniqueIdentifier>{38102018-E085-4360-901F-393AC78213CF}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\MyProject.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,11 @@
     <None Include="..\..\Source\MyProjectEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\README.md" />
     <Filter Include="Config">
-      <UniqueIdentifier>{A6A0ECF5-5EB5-4A2A-8B1B-897688B5ECED}</UniqueIdentifier>
+      <UniqueIdentifier>{2791A502-FA72-4BD6-8588-7801475FA3F4}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,8 +33,14 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\MyProject">
-      <UniqueIdentifier>{8E805F8F-0204-47E4-8E0F-16226264C378}</UniqueIdentifier>
+      <UniqueIdentifier>{CFED7887-6AF8-4E7F-9146-10BD75548DA6}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\MyProject\asssssss.cpp">
+      <Filter>Source\MyProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject\asssssss.h">
+      <Filter>Source\MyProject</Filter>
+    </ClInclude>
     <None Include="..\..\Source\MyProject\MyProject.Build.cs">
       <Filter>Source\MyProject</Filter>
     </None>
